@@ -1,0 +1,19 @@
+{
+  "name": "aoc23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkySourced/AOC23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkySourced/AOC23/issues"
+  },
+  "homepage": "https://github.com/SkySourced/AOC23#readme"
+}
