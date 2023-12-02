@@ -19,22 +19,21 @@ const lines = fs.readFileSync("./1/1-1calibration.txt", "utf-8").split("\n");
 let calibrationTotal = 0;
 
 lines.forEach(line => {
-    
-    var line = line.replaceAll("one", "1");
-    line = line.replaceAll("two", "2");
-    line = line.replaceAll("three", "3");
-    line = line.replaceAll("four", "4");
-    line = line.replaceAll("five", "5");
-    line = line.replaceAll("six", "6");
-    line = line.replaceAll("seven", "7");
-    line = line.replaceAll("eight", "8");
-    line = line.replaceAll("nine", "9");
-    
     console.log(line);
 
     let calibrationValue = 0;
 
-    const chars = line.split("");
+    line = line.replaceAll("one", "o1e");
+    line = line.replaceAll("two", "t2o");
+    line = line.replaceAll("three", "thr3e");
+    line = line.replaceAll("four", "fo4r");
+    line = line.replaceAll("five", "fi5e");
+    line = line.replaceAll("six", "s6x");
+    line = line.replaceAll("seven", "se7en");
+    line = line.replaceAll("eight", "eig8t");
+    line = line.replaceAll("nine", "n9ne");
+
+    chars = line.split("");
 
     for (let i = 0; i < chars.length; i++){
         if (chars[i] >= '0' && chars[i] <= '9') {
